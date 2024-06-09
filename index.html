@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annoying Cookie Consent</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <main>
+    <h1>Learning to code? This is the most important thing you will ever read!</h1>
+    <ul>
+      <li>💰 Land a job with a 6 figure salary</li>
+      <li>💻 Master JavaScript in 3 hours</li>
+      <li>⚛️ Learn React in 10 minutes</li>
+      <li>☕ Be a NodeJS Dev by lunchtime</li>
+    </ul>
+    <h2>My subliminal learning technique worked for Mark Zuckerberg and Albert Einstein, and it can work for you!</h2>
+    <img src="./assets/image/bugatti.avif" alt="Modern white Bugatti parked in front of a luxury hotel.">
+    <p>Want a great job in tech? Want a six-figure salary? Then you have come to the right place. I am going to tell you all you need to know to get all of that and much more, without you lifting a finger. You can learn passively. Just sit back, close your eyes, and let the sound of my voice make the code sink deep into your brain.</p>
+  </main>
+
+  <section class="modal" id="modal">
+    <header class="modal__header">
+      <button type="button" class="close-btn" id="close-btn" disabled>X</button>
+    </header>
+    <div class="modal__body" id="modal-body">
+      <h3 class="modal__title">We ❤️ Your Data!</h3>
+      <div class="modal__description" id="modal-description">
+        <p>We have a strict policy on tracking and spamming: we'll definitely track you, and we'll definitely spam you. To use this site, enter your name and email address and accept our ridiculous terms and conditions.</p>
+      </div>
+      <form action="#" class="consent-form" id="consent-form" autocomplete="off">
+        <input type="text" name="fullName" id="fullName" placeholder="Enter your full name" aria-label="Full name" required>
+        <input type="email" name="email" id="email" placeholder="Enter your email" aria-label="Email address" required>
+        <div class="btn-wrap" id="btn-wrap">
+          <button type="submit" class="accept-btn" id="accept-btn">Accept</button>
+          <button type="button" class="decline-btn" id="decline-btn">Decline</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="./index.js"></script>
+</body>
+</html>
